@@ -1,0 +1,36 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "This is a to do app",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akanksha07-c/To-do-App.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "Akanksha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akanksha07-c/To-do-App/issues"
+  },
+  "homepage": "https://github.com/Akanksha07-c/To-do-App#readme",
+  "dependencies": {
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
